@@ -16,9 +16,9 @@ function Projects() {
           <h3>{p.nome}</h3>
           <p>{p.descricao}</p>
 
-          <a href={p.link} target="_blank">
-            <button>Ver Projeto</button>
-          </a>
+          <a href={p.link} target="_blank" rel="noreferrer">
+  <button>Ver Projeto</button>
+</a>
         </div>
       ))}
     </section>
